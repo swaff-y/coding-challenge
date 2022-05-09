@@ -22,3 +22,9 @@ li {
   padding: 10px;
   display: inline;
 }
+
+@media (max-width: 800px) {
+  ul {
+    float: right;
+  }
+}
