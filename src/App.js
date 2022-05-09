@@ -1,6 +1,7 @@
 import "./App.css";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Slido from "./components/Slido";
 import Blanko from "./components/Blanko";
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/blanko" element={<Blanko />} />
           <Route path="/tetro" element={<Tetro />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
